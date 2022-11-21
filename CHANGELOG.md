@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+### [8.2.1](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v8.2.0...v8.2.1) (2022-11-14)
+
+
+### Bug Fixes
+
+* Update CI configuration files to use latest version ([#264](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/264)) ([dd692c7](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/dd692c740690f76808cc055a62335a7080b8242f))
+
+## [8.2.0](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v8.1.2...v8.2.0) (2022-10-31)
+
+
+### Features
+
+* Added support for preserve_host_header ([#265](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/265)) ([d69c409](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/d69c4099c9ed38c89b2f4aa6c0684b495d794e8e))
+
+### [8.1.2](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v8.1.1...v8.1.2) (2022-10-28)
+
+
+### Bug Fixes
+
+* Allow for override of Name tag on load balancer ([#262](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/262)) ([40d10dd](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/40d10dd54c8f4091bdc65f86e5c54e422951101e))
+
+### [8.1.1](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v8.1.0...v8.1.1) (2022-10-28)
+
+
+### Bug Fixes
+
+* Matched type of extra certificate var in module to type expected in resource ([#259](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/259)) ([144af83](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/144af83cf291dddbc2d424862054ac8d61555c8e))
+
 ## [8.1.0](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v8.0.0...v8.1.0) (2022-09-20)
 
 
