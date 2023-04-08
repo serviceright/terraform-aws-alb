@@ -13,8 +13,6 @@ resource "aws_lb" "this" {
   security_groups    = var.security_groups
   subnets            = var.subnets
 
-  preserve_host_header = true
-
   idle_timeout                     = var.idle_timeout
   enable_cross_zone_load_balancing = var.enable_cross_zone_load_balancing
   enable_deletion_protection       = var.enable_deletion_protection
